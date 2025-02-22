@@ -6,16 +6,91 @@
     <link rel="stylesheet" href="./style/table3.css">
 </head>
 <body>
-    <table>
-        <tr>
-            <td>e
+    <div class="table-content">
+
+        <table class="table">
+            <tr>
+                <!--Column 1-->
+                <td>
+                    <div class="column1">
+                        <!--Nested Table 2-->
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Nested Table 2</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                   <th>Column 1</th>
+                                   <th>Column 2</th> 
+                                </tr>
+                                <tr>
+                                    <td>abc</td>
+                                    <td>def</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <hr>
+                    <div class="column3">
+                        <!--Nested table 3-->
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="2">Nested Table 3</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Nested Table</td>
+                                    <td>Demo Continued</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+                <!--Column 2-->
+                <td>
+                    <div class="column2">
+                        <!--Nested Table 1-->
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Nested Table 1</th>
+                                </tr>
+                            </thead>
+                            <tbody>
                 <tr>
-                    <td>23</td>
-                    <td>12</td>
+                  <td>List item</td>
+                  <td>List item</td>
                 </tr>
-            </td>
-            <td>w</td>
-        </tr>
-    </table>
+                <tr>
+                  <td>List item</td>
+                  <td>List item</td>
+                </tr>
+              </tbody>
+                        </table>
+                    </div>
+                    <hr>
+                    <div class="column4">
+                        <!--Nested Table 4-->
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nested Table 4</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>HTML</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>

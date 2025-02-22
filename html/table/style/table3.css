@@ -1,8 +1,77 @@
-table {
-    border-collapse: collapse;
-}
 
-th,td {
-  border: 1px solid black;
-  text-align: center;
-}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .table-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding: 1rem;
+  }
+
+  .table {
+    width: 80%;                  
+    border-collapse: collapse;   
+    font-family: Arial, sans-serif;
+  }
+
+  .table td {
+    border: 1px solid #000; 
+    vertical-align: top;    
+    padding: 1rem;        
+  }
+  
+  .column1,
+  .column2,
+  .column3,
+  .column4 {
+
+    margin-bottom: 1rem;    
+  }
+
+  .column1 table,
+  .column2 table,
+  .column3 table,
+  .column4 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0.5rem;
+    border: 1px solid #000;
+  }
+
+  .column1 th,
+  .column2 th,
+  .column3 th,
+  .column4 th {
+    border: 1px solid #000;
+    padding: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  .column1 td,
+  .column2 td,
+  .column3 td,
+  .column4 td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .column1 tbody tr:nth-child(odd),
+  .column2 tbody tr:nth-child(odd),
+  .column3 tbody tr:nth-child(odd),
+  .column4 tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+  hr {
+    border: none;          
+    border-top: 1px solid #000;  
+    margin: 0.5rem 0;    
+  }
+  
