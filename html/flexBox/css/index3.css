@@ -1,0 +1,19 @@
+.fixed-box {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+/* fixed position apne parent ke respect me ni hota hai , islie content ka size leta hai */
+/* absolute position parent ke respect me hota hai islie by-default size ko conside krta hai agar size ni dia hua hai tb */
+
+.sticky-box{
+    position: sticky;
+    top: 5px;
+    background-color: orange;
+    padding: 10px;
+    height: 100px;
+    margin-top: 20px;
+}
