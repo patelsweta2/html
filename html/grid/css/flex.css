@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+    width: 100px;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+.box{
+    background: violet;
+    border: 1px solid blue;
+    width: 33.3%;
+}
+
+.container1 {
+    display: flex;
+    border: 2px solid black;
+    height: 100px;
+    align-items: baseline;
+  }
+  
+  .item {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+  }
+  
+  .large {
+    align-self: flex-end;
+  }
+  
+
+  .container2 {
+    display: flex;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 10px;
+    width: 100px;
+}
+
+.item-1 { flex-shrink: 1; } 
+.item-2 { flex-shrink: 9; } 
+.item-3 { flex-shrink: 0; } 
