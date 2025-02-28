@@ -1,0 +1,12 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    transform: translate(50px, 20px);
+    transition: teal 0.5s ease, transform 0.5s ease ;
+}
+
+.box:hover {
+    background-color: tomato;
+    transform: scale(1.2);
+}

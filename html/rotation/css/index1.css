@@ -1,0 +1,10 @@
+.rotate-box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  transition: transform 0.5s ease;
+}
+
+.rotate-box:hover{
+    transform: rotate(45deg);
+}
