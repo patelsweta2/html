@@ -1,10 +1,43 @@
-.rotate-box {
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
-  transition: transform 0.5s ease;
+body {
+    background: lightblue;
+    text-align: center;
 }
 
-.rotate-box:hover{
-    transform: rotate(45deg);
+.wrapper {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.wrapper img {
+    /* transform:translate(-200px,200px); */
+    /* transform: scale(2,1) */
+    /* transform: rotateZ(-90deg) translateY(200px) scale(2); */
+    /* transform: skewX(20deg); */
+}
+
+.circle{
+    width: 100px;
+    padding: 50px 0;
+    line-height: 0;
+    margin: 60px auto;
+    background: pink;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 1s, transform 1s 1s ease-in;
+}
+
+.circle:hover{
+    background-color: salmon;
+    transform: rotate(360deg);
+}
+
+.carWrapper {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.carWrapper img:hover {
+    transform: translateX(200px);
+    transition: 2s ease-in-out;
 }
