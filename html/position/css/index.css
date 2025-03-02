@@ -1,0 +1,56 @@
+
+/* static positon me top,left work ni krta hai- so box1 will not move */
+.box1 {
+    position: static;
+    top: 50px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+
+/* relative me ye apne original position se move hoga (top,left,right,bottom work krta hai isme) */
+.box2 {
+    margin-top: 100px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color:darkgoldenrod;
+}
+
+/* absolute position */
+.box3 {
+    margin-top: 100px;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color:crimson;
+}
+
+.box31 {
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    top: 50px;  
+    left: 100px;
+    background-color:darkgoldenrod;
+}
+
+.box4 {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    background-color:darkmagenta;
+}
+
+.box5{
+    position: sticky;
+    top: 50px;
+    background-color: cyan;
+    z-index: 10;
+}
