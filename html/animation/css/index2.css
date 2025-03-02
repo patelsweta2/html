@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}
+
+.box1 {
+    background: navajowhite;
+    transition: transform 1s ease-in-out, background-color 1s ease;
+}
+
+.box1:hover{
+    transform: skew(50deg, 50deg);
+    background-color: #222;
+}
+
+.box2 {
+    background-color: #999;
+    transition: transform 1s steps(5, end) 1s;
+}
+
+.box2:hover{
+    transform: translateX(700px)
+}
+
+.box3{
+    background-color: aqua;
+    transition: transform 1s ease-out 0.5s;
+}
+
+.box3:hover{
+    transform: rotate(45deg);
+}
+
+.box4{
+    background-color: cadetblue;
+    transition: background-color 1s ease, transform 0.5s ease-in-out;
+}
+
+.box4:hover{
+    transform: translate(50px, 100px) scale(1.2) rotate(30deg) skew(10deg);
+    background-color:chocolate
+}
